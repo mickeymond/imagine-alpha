@@ -120,3 +120,24 @@ Math.ceil(Math.random() * 1000000);
 // Handling user inputs
 1200 + Number('delete');
 Number('delete');
+
+// String concatenation
+const firstname = 'Michael ';
+const lastname = 'Hammond';
+firstname.trim() + ' ' + lastname.trim();
+
+// Template literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.charAt(1);
+`${firstname.trim()} ${lastname.trim()}`.charAt(0);
+`${firstname.trim().charAt(0)}${lastname.trim().charAt(0)}`;
+
+// String conversion
+String(2014);
